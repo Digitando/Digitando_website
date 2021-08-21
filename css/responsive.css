@@ -130,7 +130,8 @@
 	.section-head > .btn-default2 {display: none;}
 	.main-banner-text.title-hd.svs-header {max-width: 100%;}
 	.logo {display: none;}
-	.header-content {float: left;margin-left: 20px;}
+	.header-content {float: left;margin-left: 10px;margin-top: -20px;}
+	
 }
 
 

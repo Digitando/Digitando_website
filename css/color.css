@@ -21,8 +21,8 @@ nav ul li a:hover,
 .reply:hover,
 .error-content > h4 a,
 .responsive-mobile-menu ul li a:hover,
-.rb-post-info h3:hover {
-	color: #97267d;
+.rb-post-info h3:hover, .submit {
+	color: #A9AFC3 !important;
 }
 
 
@@ -35,12 +35,12 @@ nav ul li a:hover,
 .post-ct > a:hover:before,
 .tags li a:hover,
 .cm-head > span:before,
-.response {
-	background-color: #97267d;
+.response, .submit {
+	background-color: #97267d !important;
 }
 
 
-.btn-default,
+.btn-default,.btn-default:hover,
 .newsletter-form button:before,
 .newsletter-form button:after,
 .counter-cl,
@@ -48,6 +48,6 @@ nav ul li a:hover,
 .form-group input[type="text"]:focus,
 .form-group textarea:focus,
 .error-content .widget-search form input:focus,
-.newsletter-form input:focus {
-	border-color: #97267d;
+.newsletter-form input:focus, .submit  {
+	border-color: #97267d !important;
 }

@@ -184,7 +184,7 @@ a,
 	clear: both;
 }
 .sec-block {
-	padding: 210px 0;
+	padding: 160px 0;
 }
 .sec-block2 {
 	padding: 90px 0 180px;
@@ -206,7 +206,7 @@ a,
 	z-index: -1;
 }
 .bg-position {
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.514), rgba(255, 0, 0, 0)), linear-gradient(270deg, black, rgba(255, 0, 0, 0)), url(../images/young-computer-programmers-analyzing-code-J4H6PUT.jpg);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.514), rgba(255, 0, 0, 0)), linear-gradient(270deg, black, rgba(255, 0, 0, 0)), url(../images/web_imgs/working-on-web-project-6.jpg);
 	background-size: 100%;
 	position: absolute;
 	top: 0;
@@ -393,7 +393,7 @@ button.btn-default {
 	background-color: inherit;
 }
 .btn-default:hover {
-	background-color: #97267d;
+	background-color: #97267d !important;
 	color: #fff;
 }
 
@@ -420,7 +420,7 @@ header .menu-btn {
 .main-banner {
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.514), rgba(255, 0, 0, 0)), linear-gradient(45deg, black, rgba(255, 0, 0, 0)), url(../images/working-on-web-project-RP49GKX.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.514), rgba(255, 0, 0, 0)), linear-gradient(45deg, black, rgba(255, 0, 0, 0)), url(../images/web_imgs/working-on-web-project.jpg);
 	background-size: 100%;
 	
 }
@@ -483,13 +483,13 @@ header .menu-btn {
 	line-height: 150%;
 	color: #A9AFC3;
 	max-width: 580px;
-	margin-bottom: 70px;
+	margin-bottom: 200px; /* ovo izmjeniti nakon što vratiš gumb za about video na home*/
 }
 
 .play-video-div {
 	display: table-cell;
 }
-.poly1 {
+/*.poly1 {
 	display: table-cell;
 	width: 130px;
 	height: 130px;
@@ -506,13 +506,14 @@ header .menu-btn {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+kod za about gumb na home pageu 
 .poly1:hover:before {
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
 	-o-transform: scale(0.8);
 	transform: scale(0.8);
-}
+}*/
 .poly2 {
 	position: absolute;
 	display: inline-block;
@@ -773,7 +774,7 @@ header .menu-btn {
 .input-field input,
 .input-field textarea {
 	border:0;
-	border-bottom: 1px solid #393f4f;
+	border-bottom: 1px solid #df2179;
 	padding-bottom: 5px;	
 	width: 100%;
 	font-family: Muli;
@@ -1085,7 +1086,7 @@ footer {
 	background-size: cover;
 }
 .top-footer {
-	padding: 210px 0 166px;
+	padding: 110px 0 166px;
 }
 .top-footer .main-banner-text {
 	padding-right: 110px;
@@ -1114,7 +1115,7 @@ footer {
 	float: left;
 	width: 60px;
 	height: 60px;
-	background-color: #dd4142;
+	background-color: #df2179;
 	line-height: 60px;
 	text-align: center;
 	border:0;
