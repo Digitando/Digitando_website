@@ -13,7 +13,7 @@
 	.main-banner-text.title-hd > h1 {font-size: 54px;}
 	footer  {background-position: center;}
 	.right-position {background-position: center;}
-	.main-banner {background-size: cover;background-position: center;}
+	.main-banner, .bg-position {background-size: cover;background-position: center;}
 	.lang-slct li {padding: 0 13px;}
 	header.pb .container {padding: 0 15px 0 115px;}
 	.page-number {right: 40px;}
