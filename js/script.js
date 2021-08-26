@@ -60,3 +60,6 @@ $(window).on("load", function() {
 });
 
 
+$('#menu-btn').click(function(e) {
+  e.preventDefault();
+});
