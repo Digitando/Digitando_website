@@ -76,6 +76,16 @@
 	transform: translateY(0);
 	}
 	.case-iframe{width: 100%;}
+	.slick-next{width: 40px;}
+	.slick-next:before {
+	right: 0.1px;
+	left: auto;
+	}
+	.slick-prev{width: 40px;}
+	.slick-prev:before {
+	left: 3px;
+	right: auto;
+	}
 }
 
 
