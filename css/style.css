@@ -1640,9 +1640,7 @@ footer {
 	color: #FFFFFF;
 	margin-bottom: 34px;
 }
-.price-col.active .price-head {
-	background-color: #dd4142;
-} 
+
 .price-col.active {
 	-webkit-transform: translateY(-40px);
 	-moz-transform: translateY(-40px);
