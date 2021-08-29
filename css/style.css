@@ -420,7 +420,7 @@ header .menu-btn {
 .main-banner {
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.514), rgba(255, 0, 0, 0)), linear-gradient(45deg, black, rgba(255, 0, 0, 0)), url(../images/web_imgs/working-on-web-project.jpg);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0)), linear-gradient(45deg, black, rgba(0, 0, 0, 0)), url(../images/web_imgs/working-on-web-project.jpg);
 	background-size: 100%;
 	
 }
