@@ -93,6 +93,9 @@ table {
 	margin:0;
 	padding: 0;
 }
+::selection {
+  background-color: #97267d;
+}
 a:focus {
 	text-decoration: none;
 	outline: none;
