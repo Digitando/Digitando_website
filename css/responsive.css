@@ -54,7 +54,7 @@
 	.widget-recent-posts .blog_post .post-title {font-size: 18px;}
 	.widget-newslettter, .widget-search {padding: 44px 30px;}
 	.sec-block3 {padding: 150px 0 160px;}
-	.video-section {height: 450px;}
+	.video-section {height: 900px;}
 	.video-section > img {height: 100%;object-fit: cover;}
 	.sec-block2 {padding: 0 0 100px 0;}
 	.widget-categories li a {font-size: 14px;}
@@ -125,7 +125,7 @@
 	.sec-block3 {padding: 150px 0 120px;}
 	.partner-col > img {margin: 0 auto;}
 	.partners-section {padding: 70px 0;}
-	.video-section {height: 350px;}
+	.video-section {height: 900px;}
 	.testi-info {width: 100%; text-align: center; padding-left: 0; margin-top: 20px; }
 	.testi-head {justify-content: center;margin-bottom: 30px;}
 	.testimonial-sec > img {margin-top: 40px;}
@@ -308,7 +308,7 @@
 	.oct-abt-row {margin-bottom: 40px;}
 	.sec-block3 {padding: 110px 0 80px;}
 	.partners-section {padding: 45px 0;}
-	.video-section {height: 250px;}
+	.video-section {height: 900px;}
 	.testimonial-sec {margin-top: 40px;}
 	.pager-sec ul li {margin-bottom: 20px;}
 	.pager-sec.pb-75 {padding-bottom: 40px;}
