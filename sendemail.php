@@ -26,4 +26,6 @@ else
 {
 	echo '<div class="failed">Failed: Email not Sent.</div>';
 }
+
 ?>
+
