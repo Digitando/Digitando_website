@@ -154,7 +154,6 @@
 	.pager-sec.pb-75 {padding-top: 50px;}
 	.blog-page .blog_post.main .blog_info {padding: 0 20px;}
 	header.pb {border-bottom: 0;padding-top: 25px;}
-	.section-head > .btn-default2 {display: none;}
 	.main-banner-text.title-hd.svs-header {max-width: 100%;}
 	.logo {display: none;}
 	.header-content {float: left;margin-left: 10px;margin-top: -20px;}
@@ -240,6 +239,7 @@
 	.blog-single blockquote {padding: 35px 25px 45px;}
 	.mg-list li {width: 100%;}
 	.counter-div.scnd-dv {top: 0;}
+	.btn-default2{ margin-top:-180px;}
 	.figcaption {
 	position: absolute;
 	bottom: 23px;
