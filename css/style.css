@@ -1573,6 +1573,11 @@ footer {
 	transform: translate(-50%,-50%);
 }
 
+.video-section > iframe{
+	width: 100%;
+	height: 900px;
+}
+
 
 /* =============== SERVICES PAGE =============== */
 
