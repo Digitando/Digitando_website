@@ -3,7 +3,7 @@ $(window).on("load", function() {
 
     // LOADER 
 
-    $(".preloader").fadeOut("slow");
+    $(".preloader").fadeOut("fast");
 
     // RESPONSIVE MOBILE MENU 
 

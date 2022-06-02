@@ -339,7 +339,7 @@ header .menu-btn {
 }
 header.pb .container {
 	max-width: 100%;
-	padding: 0 70px 0 250px;
+	padding: 0 70px 0 170px;
 }
 header .container {
 	max-width: 100%;
@@ -888,6 +888,7 @@ kod za about gumb na home pageu
 	height: 24px;
 	background-image: url(../images/check-circle.svg);
 	background-repeat: no-repeat;
+	
 }
 .our-features-list li > h3 {
 	font-weight: 500;
@@ -1268,7 +1269,7 @@ footer {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 180px;
+	width: 140px;
 	background-color: #070a11;
 	z-index: 999;
 	height: 100%;
@@ -1276,7 +1277,7 @@ footer {
 }
 .wrapper {
 	float: right;
-	width: calc(100% - 180px);
+	width: calc(100% - 100px);
 }
 .menu-btn {
 	margin-top: 70px;
@@ -1290,7 +1291,7 @@ footer {
 
 .mbl-menu {
 	position: relative;
-	top: calc(100vh - 500px);
+	top: calc(100vh - 800px);
 }
 .mbl-menu li {
 	display: inline-block;
@@ -1302,7 +1303,7 @@ footer {
 	position: absolute;
 	bottom: -77px;
 	left: 50%;
-	height: 100px;
+	height: 70px;
 	width: 1px;
 	background: #A9AFC3;
 	-webkit-transform: translateX(-50%);
@@ -1314,10 +1315,10 @@ footer {
 }
 .mbl-menu li a {
 	font-family: Muli;
-	font-size: 14px;
-	line-height: 150%;
+	font-size: 13px;
+	line-height: 100%;
 	text-transform: uppercase;
-	color: #A9AFC3;
+	color: white;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -1327,7 +1328,7 @@ footer {
 	flex: none;
 	order: 1;
 	align-self: center;
-	margin: 0px 50px;
+	margin: 0px 30px;
 }
 
 
@@ -1455,6 +1456,7 @@ footer {
 	box-shadow: 0 10px 10px rgba(0,0,0,0.25);
 	margin-top: 20px;
 	overflow: hidden;
+	
 }
 .team-carousel {
 	margin: 0;
@@ -1500,6 +1502,10 @@ footer {
 	padding: 0 50px;
 	opacity: 0;
 	visibility: hidden;
+	background-color: #191b27;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
 }
 .tema-col:hover .team-caption {
 	opacity: 1;
@@ -1536,7 +1542,8 @@ footer {
 	text-align: center;
 }
 .partners-section {
-	padding: 101px 0;
+	padding: 50px 0;
+	background-color: #292e497a;
 }
 .partners-logo .slick-track {
 	display: flex;
@@ -1546,9 +1553,11 @@ footer {
 }
 .partner-col {
 	height: 100%;
+
 }
-.partner-col > img {
-	width: auto;
+.partner-col > a > img {
+	width: 150px;
+
 }
 
 /* =================== VIDEO SECTION ================= */
@@ -2711,7 +2720,7 @@ body.no-scroll {
 	height: 100%;
 	z-index: 9999999;
 	background: linear-gradient(-45deg, #3d3d3d, #000000);
-	animation: gradient 3s ease infinite;
+	animation: gradient 3s ease-in-out infinite;
 	background-size: 400% 400%;
 }
 
@@ -2744,7 +2753,8 @@ body.no-scroll {
 
 .logo-loder{
 	margin-top: 16px;
-	animation: transform 3s ease infinite;
+	animation: transform 3s ease-in-out infinite;
+	animation-direction: alternate;
 }
 
 @keyframes transform {
